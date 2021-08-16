@@ -4,7 +4,7 @@ import math
 #definir um intervalo [a,b] e um erro e
 a = float(2)
 b = float(8)
-e = float(0.0000000001)
+e = float(0.001)
 ctr = int(0)
 #definir uma função
 def f(x):
