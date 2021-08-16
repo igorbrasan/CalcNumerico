@@ -1,2 +1,2 @@
 # CalcNumerico
-Scripts Utilizados Para aprender cálculo Numérico
+Scripts Utilizados Para estudar cálculo Numérico
