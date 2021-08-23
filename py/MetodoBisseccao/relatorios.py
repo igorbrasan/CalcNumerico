@@ -11,5 +11,5 @@ def gerarArquivo(filename):
     f = open("{}.txt".format(filename), "a")
 
 #escreve a sessão num arquivo
-def relatar(filename):
+#def relatar(filename):
     #estudar em https://www.w3schools.com/python/python_file_write.asp

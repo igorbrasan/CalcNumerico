@@ -28,7 +28,8 @@ if test(f, a, b):
             else:
                 a = xi
     print(resultado(xi))
-    gerarArquivo('teste')
+    #filename = input('Insira o nome do arquivo para salvar: ')
+    #gerarArquivo(filename)
 else:
     print('Não há raiz nesse intervalo!')
   
