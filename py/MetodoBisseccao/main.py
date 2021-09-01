@@ -7,15 +7,16 @@ a = float(2)
 b = float(8)
 e = float(0.001)
 ctr = int(0)
+
 #definir uma função
 def f(x):
     return x ** 2 - 5
 
 #Testando teorema de Bolzano
-def test(f, a, b):
+def testBolzano(f, a, b):
     return f(a) * f(b) < 0
 
-if test(f, a, b):
+if testBolzano(f, a, b):
     while (math.fabs(b - a) / 2 > e):
         ctr= ctr+1
         xi = (a+b) / 2

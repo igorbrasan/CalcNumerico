@@ -1,4 +1,4 @@
-#imprime a iretação caso não encontre a raiz
+#imprime a iteração caso não encontre a raiz
 def iterar(ctr, f, xi):
     return("Iteração {} . Xi = {} , f(xi) = {}" .format(ctr,xi,f(xi)))
 
